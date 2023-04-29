@@ -1,0 +1,39 @@
+body {
+    font-size: 22px;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px dashed black;
+    width: 100%;
+}
+
+.category__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: rgba(228, 228, 228, 1);
+    margin: 20px;
+    width: 400px;
+}
+
+.category__img {
+    max-width: 70px;
+    max-height: 70px;
+    margin: 10px;
+}
+
+.category__img img {
+    width: 100%;
+}
+
+.title__name span {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.category__title span {
+    font-weight: bold;
+}
